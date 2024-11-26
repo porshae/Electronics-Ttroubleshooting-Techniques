@@ -21,6 +21,7 @@
       border: none;
       cursor: pointer;
       color: white;
+      border-radius: 10px;
       width: 100%; /* Adjust button width for mobile */
       max-width: 300px; /* Prevent buttons from getting too wide */
     }
@@ -56,32 +57,15 @@
 </head>
 <body>
   <h1>Electronics Troubleshooting Techniques</h1>
-  <p>Click a button to see its content!</p>
-  <button id="button1" onclick="showParagraph(1)">Sensory Method</button>
-  <button id="button2" onclick="showParagraph(2)">Component Substitution</button>
-  <button id="button3" onclick="showParagraph(3)">Signal injection and Tracing</button>
-  <button id="button4" onclick="showParagraph(4)">Voltage and Current Measurement</button>
-  <button id="button5" onclick="showParagraph(5)">Continuity/Resistance Testing</button>
-  <button id="button6" onclick="showParagraph(6)">Waveform Analysis</button>
-  <button id="button7" onclick="showParagraph(7)">Display Analysis</button>
-  <button id="button8" onclick="showParagraph(8)">Circuit Analysis</button>
-  <div id="content" class="content"></div>
-
-  <script>
-    function showParagraph(buttonNumber) {
-      const content = document.getElementById('content');
-      const paragraphs = [
-        "This is the first paragraph, full of exciting details!",
-        "The second paragraph has even more intriguing information!",
-        "The third paragraph ties everything together beautifully.",
-        "The fourth paragraph is all about interesting facts.",
-        "The fifth paragraph brings a touch of mystery.",
-        "The sixth paragraph surprises with fun trivia.",
-        "The seventh paragraph inspires with wisdom.",
-        "The eighth paragraph concludes with a smile."
-      ];
-      content.innerHTML = `<p>${paragraphs[buttonNumber - 1]}</p>`;
-    }
-  </script>
+  <p style="font-family:'Dancing Script',cursive; font-size:1.5rem">Welcome to the main lobby of your information source! Click below your assigned topic. Learn well!</p>
+  <a href="red.html"><button id="button1">Sensory Methods</button></a>
+  <a href="orange.html"><button id="button2">Component Substitution</button></a>
+  <a href="yellow.html"><button id="button3">Signal Injection and Tracing</button></a>
+  <a href="green.html"><button id="button4">Voltage and Current Measurement</button></a>
+  <a href="blue.html"><button id="button5">Continuity/Resistance Testing</button></a>
+  <a href="purple.html"><button id="button6">Waveform Analysis</button></a>
+  <a href="indigo.html"><button id="button7">Display Analysis</button></a>
+  <a href="gray.html"><button id="button8">Circuit Analysis</button></a></br>
+  <img src="image.png" alt="Image description" width="250" height="250" align="center">
 </body>
 </html>
